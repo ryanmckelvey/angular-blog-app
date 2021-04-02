@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2e282aff;
+    color: #f4ededff;
+    flex-direction: column;
+    height: 80x;
+}
+
+.footer-row i {
+    font-size: 48px;
+}
+
+.footer-row a,
+.footer-row a:visited,
+.footer-row a:active {
+    color: inherit;
+}
+
+.footer-row a:hover {
+    color: gray;
+}
+
+#copyright {
+    padding: 12px
+}

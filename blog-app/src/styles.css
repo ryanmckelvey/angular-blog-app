@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* CSS HEX */
+
+
+/*--dark-sea-green: #79b791ff;
+--raisin-black: #2e282aff;
+--isabelline: #f4ededff;
+--marigold: #de9e36ff;
+--fire-opal: #e15551ff;*/
+
+body,
+html {
+    margin: 0;
+    background-color: #f4ededff;
+    font-family: 'Noto Sans JP', serif;
+}
+
+.container {
+    margin: 0%;
+}
