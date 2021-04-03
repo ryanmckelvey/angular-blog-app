@@ -5,7 +5,10 @@
     background-color: #2e282aff;
     color: #f4ededff;
     flex-direction: column;
-    height: 80x;
+    height: 90px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
 }
 
 .footer-row i {

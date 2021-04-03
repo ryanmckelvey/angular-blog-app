@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "blog-post-21568": {
+      "hosting": {
+        "blog-app": [
+          "blog-post-21568"
+        ]
+      }
+    }
+  }
+}

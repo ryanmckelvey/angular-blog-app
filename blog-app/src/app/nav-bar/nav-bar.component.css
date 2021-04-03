@@ -6,6 +6,7 @@
     background-color: #de9e36ff;
     overflow: hidden;
     width: 100%;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
 }
 
 .nav-class a {
@@ -16,16 +17,34 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    background-size: 200% 200%;
+    background-image: linear-gradient(to top, #f4ededff 50%, transparent 50%);
+    -webkit-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -moz-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -ms-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -o-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
 }
 
 .nav-class a:hover {
-    background-color: #f4ededff;
     color: #2e282aff;
+    background-image: linear-gradient(to top, #f4ededff 51%, transparent 50%);
+    background-position: 0 100%;
+    -webkit-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -moz-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -ms-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    -o-transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
+    transition: background-position 75ms, color 75ms ease, border-color 75ms ease;
 }
 
 .nav-class a.active {
     background-color: #f4ededff;
     color: #2e282aff;
+}
+
+.nav-class a.login {
+    float: right;
+    display: block;
 }
 
 .nav-class a.icon {

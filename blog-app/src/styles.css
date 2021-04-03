@@ -4,11 +4,14 @@
 /* CSS HEX */
 
 
-/*--dark-sea-green: #79b791ff;
---raisin-black: #2e282aff;
---isabelline: #f4ededff;
---marigold: #de9e36ff;
---fire-opal: #e15551ff;*/
+/*
+--dark-sea-green: #79b791ff; Confirm
+--raisin-black: #2e282aff; Secondary
+--isabelline: #f4ededff; Background
+--marigold: #de9e36ff; Primary
+--fire-opal: #e15551ff; Cancel
+--gainsboro: #E7DADA; Modal
+*/
 
 body,
 html {
