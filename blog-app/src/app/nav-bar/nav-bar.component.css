@@ -69,11 +69,12 @@
         position: absolute;
         right: 0;
         top: 0;
+        color: #2e282aff;
     }
     .nav-class.responsive a {
         float: none;
         display: block;
         text-align: left;
-        border-bottom: #4C4246 1px solid;
+        box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%);
     }
 }

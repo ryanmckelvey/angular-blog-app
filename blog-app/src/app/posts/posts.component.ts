@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PostObjComponent } from '../post-obj/post-obj.component';
+
 
 @Component({
   selector: 'app-posts',

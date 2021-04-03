@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { PostsComponent } from './posts/posts.component';
 import { AboutComponent } from './about/about.component';
 import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { PostObjComponent } from './post-obj/post-obj.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
     HomeComponent,
     PostsComponent,
     AboutComponent,
-    FourOhFourComponent
+    FourOhFourComponent,
+    PostObjComponent
   ],
   imports: [
     BrowserModule,
