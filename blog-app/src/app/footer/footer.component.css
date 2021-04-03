@@ -2,13 +2,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2e282aff;
-    color: #f4ededff;
+    background-color: #3B3B3B;
+    color: #ffffff;
     flex-direction: column;
     height: 90px;
-    position: absolute;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    clear: both;
+    position: relative;
+    margin-top: auto;
 }
 
 .footer-row i {

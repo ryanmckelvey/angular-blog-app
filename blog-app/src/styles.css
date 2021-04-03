@@ -1,23 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-/* CSS HEX */
-
-
-/*
---dark-sea-green: #79b791ff; Confirm
---raisin-black: #2e282aff; Secondary
---isabelline: #f4ededff; Background
---marigold: #de9e36ff; Primary
---fire-opal: #e15551ff; Cancel
---gainsboro: #E7DADA; Modal
-*/
-
 body,
 html {
     margin: 0;
-    background-color: #f4ededff;
+    background-color: #ffffff;
     font-family: 'Noto Sans JP', serif;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    --main: #EEB244;
+    --secondary: #005248;
+    --light: #C3FCF2;
+    --dark: #4B8178;
+    --cancel: #C1554E;
+    --confirm: #008F5D;
+    --extra: #8362D5;
 }
 
 .container {
