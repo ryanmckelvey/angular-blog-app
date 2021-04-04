@@ -1,11 +1,11 @@
-<div class="post-container">
+<div class="post-container" *ngIf="inputPost">
     <div class="post-header">
-        <p class="header">{{this.header}}</p>
-        <p class="date">{{this.dateCreated}}</p>
+        <p class="header">{{inputPost.header}}</p>
+        <p class="date">{{inputPost.dateCreated.seconds * 1000 | date: "shortDate"}}</p>
     </div>
     <div class="post-content-container">
         <div class="post-content">
-            <p class="content">{{this.content}}</p>
+            <p class="content">{{inputPost.content}}</p>
         </div>
     </div>
 </div>

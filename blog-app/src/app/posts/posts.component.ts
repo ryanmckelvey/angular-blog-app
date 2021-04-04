@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PostObjComponent } from '../post-obj/post-obj.component';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { IPost } from '../interfaces/post';
 
 
 @Component({
@@ -9,9 +11,13 @@ import { PostObjComponent } from '../post-obj/post-obj.component';
 })
 export class PostsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private db: AngularFirestore) { }
+
+  postListObsv = this.db.collection<any>('blogs').valueChanges();
+  postList: any[] = []
 
   ngOnInit(): void {
+    this.postListObsv.subscribe(posts => { this.postList = posts; console.log(this.postList) })
   }
 
 }

@@ -1,11 +1,3 @@
-<p>posts works</p>
-<div class="posts-container">
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
-    <app-post-obj></app-post-obj>
+<div class="posts-container" *ngIf="postList">
+    <app-post-obj *ngFor="let post of postList" [inputPost]="post"></app-post-obj>
 </div>
